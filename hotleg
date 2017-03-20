@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Hotleg Tech</title>
+</head>
+
+<body>
+
+<h1 id="top">This is the Main Headig</h1>
+<p>
+This text might be an introduction to the rest of the page. 
+<br />And if the <b>page</b> is a long one it might be split up into several sub-headings.
+</p>
+
+<hr />
+
+<h2 id="Sub-heading">This is a Sub-Heading</h2>
+<p>Many long articals have sub-headings so to help you follow the stucture of what is being <i>written</i>. There may even be sub-sub-headings(or lower level headings.)</p>
+
+<hr />
+
+<h2>Another Sub-Heading</h2>
+<p>Here you can see another Sub-heading.He said:</p>
+
+<blockquote cite="http://www.w3school.com.cn/tags/tag_em.asp">
+<p>Did you ever stop to think , and forget to start again? And I really like <abbr title="National Basketball Association">NBA</abbr> .</p>
+</blockquote>
+
+<hr />
+
+<p><cite>A Brief History of Time</cite> by Steven Hawing has sold over ten millon copies worldwide.</p>
+
+<p>It was the <del>worst</del> <ins>best</ins> idea she had ever had.</p>
+
+<p id="Laptop">Laptop computer：</p>
+<p><s>Was $999</s></p>
+<p>Now only $699</p>
+
+<p>
+And let's check it's function:
+<ol>
+<li>Chop patatoes into quarters</li>
+<li>Simmer in salted water for 15-20 minutes until tender</li>
+<li>Heat milk,butter and nutmeg</li>
+<li>Drain potatoes and mash</li>
+<li>Mix in the milk mixture</li>
+</ol>
+
+Another:
+<ul>
+<li>1kg king Edward potatoes</li>
+<li>100ml milk</li>
+<li>50g salted butter</li>
+<li>Fresh grated nutmeg</li>
+<li>Salt and papper to taste</li>
+</ul>
+</p>
+
+<br />
+
+<p>
+<dl>
+<dt>Sashimi</dt>
+<dd>Sliced raw fish that is served with condiments such as shredded daikon radish or ginger root, wasabi and soy sauce .</dd>
+
+<dt>Scale</dt>
+<dd>A device used to accurately measure the weight of ingredients</dd>
+<dd>A tecnique by which the scales are removed from the skin of a fish.</dd>
+
+<dt>Scamorze</dt>
+<dt>Scamorzo</dt>
+<dd>An Italian cheese uaually made from whole cow's milk (although it was traditionally made from buffalo milk)</dd>
+</dl>
+</p>
+
+<br />
+
+<p>
+This is another definition:
+<ul>
+<li>Mousses</li>
+<li>Pastries</li>
+    <ul>
+    <li><a href="http://www.imdb.com" target="_blank">Croissant</a></li>
+    <li><a href="#Laptop">Mille-feuile</a></li>
+    <li><a href="#Sub-heading">Parmile</a></li>
+    <li>Profiterole</li>
+    </ul>
+<li>Tars</li>
+</ul>
+</p>
+
+<figure>
+<img src="https://img1.doubanio.com/view/photo/photo/public/p2439561989.jpg" alt="Logan and Laura" width="500px" height="330px" />
+<br />
+<figcaption>Wolverine:Weapon X</figcaption>
+</figure>
+
+<p>
+<table>
+<tr>
+<th></th>
+<th scope="col">2008</th>
+<th scope="col">2012</th>
+<th scope="col">2016</th>
+<th scope="col">2020</th>
+</tr>
+
+<tr>
+<th scope="row">Wolverine 1 :</th>
+<td>$40</td>
+<td>$50</td>
+<td>$90</td>
+<td>$120</td>
+</tr>
+
+<tr>
+<th scope="row">Wolverine 2 :</th>
+<td>$100</td>
+<td>$120</td>
+<td>$300</td>
+<td>$350</td>
+</tr>
+
+<tr>
+<th scope="row">Wolverine 3 :</th>
+<td>$200</td>
+<td>$220</td>
+<td>$300</td>
+<td>$500</td>
+</tr>
+
+<tr>
+<th scope="row">Wolverine X :</th>
+<td>$400</td>
+<td>$440</td>
+<td>$500</td>
+<td>$800</td>
+</tr>
+</table>
+</p>
+
+<form action="http://www.hotleg.tech" method="post">
+<fieldset>
+<legend>Your Details</legend>
+
+<lable>
+Name: 
+<input type="text" name="name" size="30" maxlength="100" />
+</lable>
+
+<br />
+
+<lable>
+Emali: 
+<input type="emaile" name="email" size="30" maxlength="100" />
+</lable>
+</fieldset>
+<br />
+
+<fieldset>
+<legend>Your Review</legend>
+
+<p>
+<lable for="hear-about">
+How did you hear about us?
+</lable>
+<select name="referrer" id="hear-about">
+<option value="Google">Google</option>
+<option value="Yahoo">Yahoo</option>
+<option value="Baidu">Baidu</option>
+<option value="Other">Other</option>
+</select>
+</p>
+
+<p>
+Would you visit again? 
+<br />
+<lable>
+<input type="radio" name="advice" />Yes
+</lable>
+<lable>
+<input type="radio" name="advice" />No
+</lable>
+<lable>
+<input type="radio" name="advice" />Maybe
+</lable>
+</p>
+
+<p>
+<lable for="Comments">
+Comments:
+</lable>
+<br />
+<textarea col="200" rows="5" id="Comments" placeholder="Enter your coments...">
+</textarea>
+</p>
+
+<lable>
+<input type="checkbox" name="updates" />
+Sign me up for email updates
+</lable>
+<br />
+<input type="submit" name="review" value="Submit review" />
+</fielfset>
+</form>
+
+
+
+</body>
+</html>
